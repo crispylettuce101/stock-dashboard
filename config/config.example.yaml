@@ -1,0 +1,14 @@
+# Application Configuration
+app:
+  name: "Stock Trading Dashboard"
+  version: "1.0.0"
+
+scraper:
+  reddit:
+    subreddits:
+      - wallstreetbets
+      - stocks
+      - investing
+
+analyzer:
+  cache_duration: 300
